@@ -1,21 +1,21 @@
 # Add your code here
 require "pry" 
+
 class Dog 
   
   attr_reader :name 
-  
-  @@all = []
-  
-  def save
-   @@all << self
-  end 
-  
     
   def initialize(name)
     @@name = name
     save
   end
   binding.pry 
+    
+  @@all = []
+  
+  def save
+   @@all << self
+  end 
   
   def self.all 
     @@all 
