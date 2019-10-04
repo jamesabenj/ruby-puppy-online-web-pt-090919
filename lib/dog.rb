@@ -9,7 +9,7 @@ class Dog
     @@name = name
     save
   end
-  binding.pry 
+
     
   @@all = []
   
