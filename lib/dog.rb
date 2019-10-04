@@ -14,7 +14,7 @@ class Dog
     save
   end
   
-  def name 
+  def name= 
     @@name
   end 
   
