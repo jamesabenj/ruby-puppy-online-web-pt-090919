@@ -2,6 +2,7 @@
 require "pry" 
 class Dog 
 
+attr_reader 
   
   @@all = []
   
