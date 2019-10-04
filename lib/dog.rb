@@ -9,6 +9,10 @@ class Dog
     @@name = name
     save
   end
+  
+  def name 
+    @@name
+  end 
 
     
   @@all = []
