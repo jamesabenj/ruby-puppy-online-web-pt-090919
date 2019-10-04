@@ -2,7 +2,7 @@
 require "pry" 
 class Dog 
 
-attr_reader 
+attr_reader :name 
   
   @@all = []
   
