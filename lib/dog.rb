@@ -4,9 +4,10 @@ require "pry"
 class Dog 
   
   attr_reader :name 
+  @@all = []
     
   def initialize(name)
-    @@name = name
+    @name = name
     save
   end
   
@@ -14,8 +15,6 @@ class Dog
     @@name
   end 
 
-    
-  @@all = []
   
   def save
    @@all << self
